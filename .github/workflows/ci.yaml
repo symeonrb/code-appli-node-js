@@ -21,5 +21,8 @@ jobs:
       - name: Installations des dépendances
         run: npm install
 
+      - name: Installations clean des dépendances
+        run: npm ci
+
       - name: Exécution des test
-        run: npm test -- test/socket.test.mjs
+        run: npm test
