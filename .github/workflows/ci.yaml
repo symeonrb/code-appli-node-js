@@ -21,4 +21,5 @@ jobs:
       - name: Installations des dépendances
         run: npm install
 
-     # à compléter
+      - name: Exécution des test
+        run: npm test
